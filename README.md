@@ -153,19 +153,6 @@ aws s3 website s3://streaming-agent-frontend-<> \
 # Upload files
 aws s3 sync out/ s3://streaming-agent-frontend-<> --region us-east-1
 
-# Make public
-aws s3api put-bucket-policy --bucket streaming-agent-frontend-<> \
-    --policy '{
-        "Version": "2012-10-17",
-        "Statement": [{
-            "Effect": "Allow",
-            "Principal": "*",
-            "Action": "s3:GetObject",
-            "Resource": "arn:aws:s3:::streaming-agent-frontend-<>/*"
-        }]
-    }'
-```
-
 ### Step 8: Access  App
 - **Frontend**: `http://streaming-agent-frontend-125975759762.s3-website-us-east-1.amazonaws.com/`
 
