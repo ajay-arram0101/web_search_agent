@@ -1,0 +1,9 @@
+fastapi>=0.115.8
+mangum>=0.17.0
+uvicorn>=0.34.0
+langchain-core>=0.3.15
+langchain-openai>=0.2.5
+langchain>=0.3.7
+aiohttp>=3.9.0
+python-dotenv>=1.0.0
+pydantic>=2.0.0

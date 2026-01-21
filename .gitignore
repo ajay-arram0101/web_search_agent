@@ -1,0 +1,54 @@
+# Environment files
+*.env
+.env
+.env.*
+
+# Python virtual environment
+streaming_agent_lanchain/
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info
+*.pyc
+
+# Lambda deployment artifacts
+lambda-code.zip
+lambda-layer.zip
+lambda-layer-linux.zip
+layer-streaming.zip
+lambda-layer/
+lambda-layer-linux/
+layer-streaming/
+
+# Node.js
+node_modules/
+.next/
+out/
+*.tgz
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build outputs
+dist/
+build/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Test files
+test-parse.js
