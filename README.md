@@ -1,6 +1,9 @@
-# LangChain Streaming Agent
+# Streaming Agent
 
 A real-time streaming AI chat application built with LangChain, FastAPI, and Next.js. The agent uses tools (web search, math) to answer questions and streams responses live to the user.
+
+###  Access  App
+- **Link**: `http://streaming-agent-frontend-125975759762.s3-website-us-east-1.amazonaws.com/`
 
 ## Project Structure
 
@@ -153,8 +156,7 @@ aws s3 website s3://streaming-agent-frontend-<> \
 # Upload files
 aws s3 sync out/ s3://streaming-agent-frontend-<> --region us-east-1
 
-### Step 8: Access  App
-- **Frontend**: `http://streaming-agent-frontend-125975759762.s3-website-us-east-1.amazonaws.com/`
+
 
 ---
 
